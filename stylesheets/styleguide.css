@@ -1,0 +1,37 @@
+:root {
+    --paragraph-font: rgba(118, 118, 118, 1);
+    --white: rgba(255, 255, 255, 1);
+    --black: rgba(43, 43, 43, 1);
+    --background: rgba(240, 240, 246, 1);
+    --yellow: rgba(255, 180, 0, 1);
+    --paragraph-progress-15-font-family: "Inter", Helvetica;
+    --paragraph-progress-15-font-weight: 400;
+    --paragraph-progress-15-font-size: 15px;
+    --paragraph-progress-15-letter-spacing: 0px;
+    --paragraph-progress-15-line-height: 24px;
+    --paragraph-progress-15-font-style: normal;
+    --h2-32px-font-family: "Inter", Helvetica;
+    --h2-32px-font-weight: 700;
+    --h2-32px-font-size: 32px;
+    --h2-32px-letter-spacing: 0px;
+    --h2-32px-line-height: 123.59999084472656%;
+    --h2-32px-font-style: normal;
+    --h4-18px-font-family: "Inter", Helvetica;
+    --h4-18px-font-weight: 500;
+    --h4-18px-font-size: 18px;
+    --h4-18px-letter-spacing: 0px;
+    --h4-18px-line-height: 123.59999084472656%;
+    --h4-18px-font-style: normal;
+    --p-15px-paragraph-font-family: "Inter", Helvetica;
+    --p-15px-paragraph-font-weight: 400;
+    --p-15px-paragraph-font-size: 15px;
+    --p-15px-paragraph-letter-spacing: 0px;
+    --p-15px-paragraph-line-height: 24px;
+    --p-15px-paragraph-font-style: normal;
+    --h6-16px-font-family: "Inter", Helvetica;
+    --h6-16px-font-weight: 400;
+    --h6-16px-font-size: 16px;
+    --h6-16px-letter-spacing: 0px;
+    --h6-16px-line-height: 24px;
+    --h6-16px-font-style: normal;
+}

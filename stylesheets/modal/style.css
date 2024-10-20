@@ -1,0 +1,117 @@
+/* Modal styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+}
+
+.modal-content {
+    background-color: #fff; /* White background */
+    margin: 50px auto; /* Center the modal */
+    padding: 1rem; /* Padding inside the modal */
+    border-radius: 10px; /* Rounded corners */
+    width: 80%; /* Responsive width */
+    max-width: 600px; /* Maximum width */
+    height: auto; /* Auto height to fit content */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange children vertically */
+    justify-content: center; /* Center children vertically */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.modal-title {
+    text-align: center; /* Center the title */
+    font-family: "Inter-Bold", Helvetica; /* Font styling */
+    font-size: 24px; /* Title font size */
+    font-weight: 700; /* Bold font weight */
+    color: #2B2B2B; /* Dark gray color */
+}
+
+.modal-content h2 {
+    margin-bottom: 1rem; /* Space below */
+    font-size: 1.2rem; /* Subheading font size */
+}
+
+.modal-content h3 {
+    margin: 1rem 0 0.5rem; /* Space above and below */
+    font-size: 1rem; /* Smaller heading font size */
+}
+
+.modal-content form {
+    display: flex; /* Use flexbox for form layout */
+    flex-direction: column; /* Arrange children vertically */
+    flex-grow: 1; /* Allow form to grow and fill the space */
+}
+
+.modal-content label {
+    margin-top: 0.5rem; /* Space above labels */
+    font-weight: bold; /* Bold labels */
+}
+
+.modal-content input[type="text"],
+.modal-content input[type="number"] {
+    margin-bottom: 1rem; /* Space below inputs */
+    padding: 0.5rem; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    background-color: #f0f0f6; /* Light background color */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 1rem; /* Input font size */
+}
+
+.skills-header {
+    display: flex; /* Use flexbox for header layout */
+    justify-content: space-between; /* Space between items */
+    margin-bottom: 0.5rem; /* Space below header */
+    color: #2B2B2B; /* Dark gray color */
+}
+
+.skill-input {
+    display: flex; /* Use flexbox for skill input layout */
+    justify-content: space-between; /* Space between inputs */
+    margin-bottom: 0.5rem; /* Space below skill input */
+}
+
+.skill-input input[type="text"] {
+    width: 70%; /* Width of text input */
+    height: 40px; /* Height of text input */
+}
+
+.skill-input input[type="number"] {
+    width: 25%; /* Width of number input */
+    height: 40px; /* Height of number input */
+}
+
+.form-actions {
+    display: flex; /* Use flexbox for action buttons layout */
+    justify-content: flex-end; /* Align buttons to the right */
+    gap: 15px; /* Space between buttons */
+    margin-top: 20px; /* Space above action buttons */
+}
+
+.add-skill-btn,
+.cancel-btn {
+    padding: 0.5rem 1rem; /* Padding for buttons */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners for buttons */
+    cursor: pointer; /* Pointer on hover */
+    text-transform: uppercase; /* Uppercase text */
+}
+
+.add-skill-btn {
+    background: #FFB400; /* Button background color */
+    color: black; /* Text color */
+    font-family: "Inter-Regular", Helvetica; /* Font styling */
+    font-size: 14px; /* Button font size */
+    font-weight: 600; /* Button font weight */
+}
+
+.cancel-btn {
+    background: white; /* White background */
+    color: #FF5252; /* Red text color */
+    border: 1px solid #FF5252; /* Red border */
+}
